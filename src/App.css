@@ -1,0 +1,103 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.input-field{
+  height: 150px;
+
+}
+.btn-size{
+  width: 100px;
+  color: black;
+  background: #d53796;
+  font-weight: 700;
+  border: 1px;
+}
+.Auto-screen{
+  height: 100vh;
+}
+.aling-cls {
+top: 25%;
+}
+.text-area-cls{
+  width: 50%;
+  font-weight: 600;
+  position: relative;
+    padding: 18px;
+    border-radius: 8px;
+    height: 110px;
+}
+.list{
+  width: 230px;
+  height: 230px;
+  text-align: start;
+  padding: 20px;
+  position: relative;
+  left: 45%;
+  bottom: 20%;
+}
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid #ccc; /* Border design */
+  border-radius: 5px; /* Border radius */
+  padding: 10px; /* Padding for spacing */
+  max-height: 300px; /* Maximum height for vertical scrolling */
+}
+
+.table-responsive::-webkit-scrollbar {
+  width: 10px; margin: 2px;/* Width of the scrollbar */
+}
+
+.table-responsive::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Background color of the scrollbar track */
+}
+
+.table-responsive::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scrollbar thumb */
+  border-radius: 5px; /* Border radius of the scrollbar thumb */
+}
+
+.table-responsive::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Color of the scrollbar thumb on hover */
+}
+.cursor-pointer-cls {
+  cursor: pointer;
+  height: 51px;
+    margin-top: 7px;
+}
+.cursor-pointer-cls:hover {
+  background: #e3b8d8;
+}
+.round{
+  padding-bottom: 10px;
+  padding-left: 17px;
+  padding-right: 17px;
+  margin-right: 10px;
+  padding-top: 10px;
+  color: white;
+  border-radius: 50px 50px 50px 50px;
+}
+.round.red{
+  background: red;
+
+}
+.round.blue{
+  background:blue;
+
+}
+.round.black{
+  background:black;
+
+}
+.show-card{
+ 
+    height: 160px !important;
+}
+
+.font-sz{
+  font-size: small;
+}
+.color-text{
+  color: #d53796;
+}
